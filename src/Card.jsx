@@ -20,7 +20,7 @@ function Card(props) {
                         <li className={props.data.reportsEnabler  ?  ' '  :  'text-muted'}><span className="fa-li"><i className={props.data.reportsEnabler ? "fas fa-check" : "fas fa-times"}></i></span>{props.data.reports}</li>
                       </ul> 
                  <div className="d-grid">
-                        <a href="#" className="btn btn-primary text-uppercase">Button</a>
+                        <a href="#" className="btn btn-primary text-uppercase">BUY NOW</a>
                       </div>
                   </div>
                 </div>
